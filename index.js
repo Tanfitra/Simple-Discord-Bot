@@ -15,7 +15,11 @@ client.on('message',msg => {
     msg.reply('Pong!');
   } else if (msg.content === 'info') {
       msg.channel.send('Aku adalah bot official naon yang dibuat oleh Tanfitra')
+  } else if (msg.content === 'Siapa badut terhandal?')  {
+      msg.channel.send('Ravell')
+  }else if (msg.content === 'Orang paling ganteng?')  {
+      msg.reply('Tanfitra');
   }
-});
+})
 
 client.login(process.env.API_TOKEN);
