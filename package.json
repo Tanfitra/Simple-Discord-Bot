@@ -4,7 +4,8 @@
   "description": "Bot embed naon",
   "main": "naon.js",
   "scripts": {
-    "start": "node naon.js"
+    "start": "node naon.js",
+    "node .": "node run naon.js"
   },
   "repository": {
     "type": "git",
