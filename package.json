@@ -2,10 +2,10 @@
   "name": "naon-bot",
   "version": "1.0.0",
   "description": "Bot embed naon",
-  "main": "index.js",
+  "main": "naon.js",
   "scripts": {
-    "start": "node index.js",
-    "node .": "node run index.js"
+    "start": "node naon.js",
+    "node .": "node run naon.js"
   },
   "repository": {
     "type": "git",
