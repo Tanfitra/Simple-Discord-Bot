@@ -1,1 +1,1 @@
-worker node naon.js
+worker = 'node naon.js'
