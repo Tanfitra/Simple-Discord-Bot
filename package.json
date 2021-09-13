@@ -4,7 +4,12 @@
   "description": "Bot embed naon",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "node .": "node run index.s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tanfitra/Naon-Bot.git",
   },
   "author": "Tanfitra",
   "license": "ISC",
