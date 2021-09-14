@@ -10,7 +10,6 @@ const PREFIX = '^'
 var version = '1.5'
 const activities_list = [
     "Naon Store",
-    "𝝢𝗮𝖔𝖓 𝗦𝖙𝖚Ժ𝖎𝖔 Official",
     "@Tanfitra",
     "@EelMaoo",
     "@Ya'Juj",
