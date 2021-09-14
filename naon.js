@@ -1,4 +1,5 @@
 const { Client, Intents, DiscordAPIError, MessageEmbed, Message, MessageFlags, StoreChannel, Collection} = require('discord.js')
+const   Config = require('./Config.json')
 const client = new Client({
     intents: [Intents.FLAGS.GUILD_MEMBERS, Intents.FLAGS.GUILDS]})
 
@@ -113,4 +114,4 @@ client.on('message',Message => {
     }   
 })
 
-client.login(process.env.API_TOKEN)
+client.login(Config.token)
