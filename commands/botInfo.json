@@ -1,8 +1,12 @@
 {
-    "version": "1.2",
-    "Prefix": ".",
+    "version": "1.5",
+    "Prefix": "^",
     "Author": "Tanfitra",
     "LINK Discord": "https://discord.gg/EtyCmrTtJU",
-    "bot nama": "Naon Store Bot"
+    "bot nama": "Naon Store Bot",
+    "pricelist1": "- 50 Diamonds : Rp.10.000,-\n- 70 Diamonds : Rp.12.000,-\n- 140 Diamonds : Rp.22.000,-\n- 355 Diamonds : Rp.55.000,-\n- 720 Diamonds : Rp.110.000,-\n- 1450 Diamonds : Rp.215.000,-",
+    "keterangan": "Untuk membuat pemesanan dapat melalui channel #🎟│ticket-for-orders",
+    "perhatian": "• Kesalahan memasukan id dan server bukan tanggung jawab dari kami\n• Proses pesanan 1-15 menit",
+    "cmd": "info\nping\nclear\nkick\n\test"
 
 }
