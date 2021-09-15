@@ -58,6 +58,14 @@ client.on('message',Message => {
             commands.get('test').execute(Message)
         break
 
+        case 'express' :
+            commands.get('express').execute(Message)
+        break
+
+        case 'nord' :
+            commands.get('nord').execute(Message)
+        break
+        
         case 'kick' :
             if(Message.member.roles.cache.find(r => r.name === 'Discord Access')) {
                 const userKick = Message.mentions.users.first()
