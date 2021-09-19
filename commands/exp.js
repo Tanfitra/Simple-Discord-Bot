@@ -4,7 +4,7 @@ const   {
 const   botInfo = require('./botInfo.json')
 
 module.exports = {
-    name: 'express',
+    name: 'exp',
     description: 'Ini adalah commands express vpn chat embeds',
     execute(message)  {
         message.channel.bulkDelete(1)

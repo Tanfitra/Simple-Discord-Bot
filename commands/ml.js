@@ -4,7 +4,7 @@ const   {
 const   botInfo = require('./botInfo.json')
 
 module.exports = {
-    name: 'mobile',
+    name: 'ml',
     description: 'Ini adalah commands mobile legend chat embeds',
     execute(message)  {
         message.channel.bulkDelete(1)

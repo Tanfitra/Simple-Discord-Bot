@@ -50,8 +50,8 @@ client.on('message',Message => {
             commands.get('info').execute(Message)
         break
 
-        case 'freefire' :
-            commands.get('freefire').execute(Message)
+        case 'free' :
+            commands.get('free').execute(Message)
         break
         
         case 'test' :
@@ -59,19 +59,19 @@ client.on('message',Message => {
         break
 
         case 'express' :
-            commands.get('express').execute(Message)
+            commands.get('exp').execute(Message)
         break
 
-        case 'nord' :
-            commands.get('nord').execute(Message)
+        case 'nrd' :
+            commands.get('nrd').execute(Message)
         break
 
-        case 'netflix' :
-            commands.get('netflix').execute(Message)
+        case 'net' :
+            commands.get('net').execute(Message)
         break
 
         case 'mobile' :
-            commands.get('mobile').execute(Message)
+            commands.get('ml').execute(Message)
         break
         
         case 'kick' :

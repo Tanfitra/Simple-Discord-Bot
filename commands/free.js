@@ -4,7 +4,7 @@ const   {
 const   botInfo = require('./botInfo.json')
 
 module.exports = {
-    name: 'freefire',
+    name: 'free',
     description: 'Ini adalah commands free fire chat embeds',
     execute(message)  {
         message.channel.bulkDelete(1)
