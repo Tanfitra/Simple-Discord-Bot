@@ -58,7 +58,7 @@ client.on('message',Message => {
             commands.get('test').execute(Message)
         break
 
-        case 'express' :
+        case 'exp' :
             commands.get('exp').execute(Message)
         break
 
