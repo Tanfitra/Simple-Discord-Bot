@@ -10,7 +10,7 @@ module.exports = {
         message.channel.bulkDelete(1)
 
         const freeembed = new MessageEmbed()
-            .setTitle(':gem: DIAMOND Mobile Legend :gem:')
+            .setTitle(':gem: DIAMOND MOBILE LEGEND :gem:')
             .addField('Perhatian', botInfo.perhatian)
             .addField('Pricelist :', botInfo['pricelist-mobile'])
             .addField('Keterangan :', botInfo.keterangan)

@@ -70,7 +70,7 @@ client.on('message',Message => {
             commands.get('net').execute(Message)
         break
 
-        case 'mobile' :
+        case 'ml' :
             commands.get('ml').execute(Message)
         break
         
