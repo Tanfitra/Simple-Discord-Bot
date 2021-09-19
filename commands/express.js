@@ -11,8 +11,8 @@ module.exports = {
 
         const freeembed = new MessageEmbed()
             .setTitle('☁ Express VPN ☁')
-            .addField('Perhatian', botInfo.perhatian)
-            .addField('Pricelist :', botInfo.pricelist2)
+            .addField('Perhatian', botInfo['perhatian-express'])
+            .addField('Pricelist :', botInfo['pricelist-express'])
             .addField('Keterangan :', botInfo.keterangan)
             .setFooter('Express Pricelist')
             .setColor('FFB319')

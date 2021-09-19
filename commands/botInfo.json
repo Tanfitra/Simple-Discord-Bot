@@ -4,11 +4,15 @@
     "Author": "Tanfitra",
     "LINK Discord": "https://discord.gg/EtyCmrTtJU",
     "bot nama": "Naon Store Bot",
-    "pricelist1": "- 50 Diamonds : Rp.10.000,-\n- 70 Diamonds : Rp.12.000,-\n- 140 Diamonds : Rp.22.000,-\n- 355 Diamonds : Rp.55.000,-\n- 720 Diamonds : Rp.110.000,-\n- 1450 Diamonds : Rp.215.000,-",
+    "pricelist-mobile": "• 86 = 19.570\n• 172 = 38.625\n• 257 = 58.710\n• 344 = 80.340\n• 429 = 97.850\n• 514 = 116.390\n• 706 = 154.500\n• 878 = 200.850\n• 963 = 225.570\n• 1412 = 319.300\n• 2195 = 478.950\n• 2901 = 669.500\n• 3688 = 819.880\n• 4394 = 978.500\n• 5532 = 1.228.790\n• 9288 = 2.042.490",
     "keterangan": "Untuk membuat pemesanan dapat melalui channel #🎟│ticket-for-orders",
     "perhatian": "• Kesalahan memasukan id dan server bukan tanggung jawab dari kami\n• Proses pesanan 1-15 menit",
     "cmd": "info\nping\nclear\nkick\ntest",
-    "pricelist2": "1 Month ➛ 40K\n 1 Year ➛ 70K\n- Akun Store\n - 1 Year Garansi 6 Bulan",
-    "pricelist3": "1 month ➛ 10K\n 1 year ➛ 23K\n- Akun store"
-
+    "pricelist-netflix": "1 Month ➛ 35k (Sharing)",
+    "pricelist-express": "1 Month ➛ 40K\n1 Year ➛ 70K",
+    "pricelist-nord": "1 Month ➛ 10K\n 1 Year ➛ 23K\n- Akun store",
+    "pricelist-freefire": "• 50 Diamond = 6,648 \n• 70 Diamond = 9,141 \n• 140 Diamond = 18,282 \n• 355 Diamond = 45,705 \n• 720 Diamond = 91,410 ",
+    "perhatian-netflix": "• 1 Profile = 1 Device\n• Akun Store",
+    "perhatian-express": "• Akun Store\n• 1 Year = Garansi 6 Bulan",
+    "perhatian-nord": "• Akun Store"
 }
