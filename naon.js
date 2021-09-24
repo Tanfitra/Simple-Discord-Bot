@@ -14,6 +14,7 @@ const activities_list = [
     "@Tanfitra",
     "@EelMaoo",
     "@Kepoya",
+    "@Juna",
 ]
 const fs = require('fs');
 const commands = new Collection()
