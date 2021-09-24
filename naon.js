@@ -8,11 +8,13 @@ if (process.env.NODE_ENV !== 'production') {
 const PREFIX = '^'
 var version = '1.6.7'
 const activities_list = [
-    "Naon Store",
     "Prefix : ^",
+    "Naon Store",
+    "Naon Studio",
     "@Tanfitra",
-];
-
+    "@EelMaoo",
+    "@Kepoya",
+]
 const fs = require('fs');
 const commands = new Collection()
 const files = fs.readdirSync('./commands').filter(file => file.endsWith('.js'))
