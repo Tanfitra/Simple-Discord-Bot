@@ -11,9 +11,6 @@ const activities_list = [
     "Naon Store",
     "Prefix : ^",
     "@Tanfitra",
-    "@EelMaoo",
-    "@Ya'Juj",
-    "@Kepoya"
 ];
 
 const fs = require('fs');
