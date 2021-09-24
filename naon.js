@@ -6,7 +6,7 @@ if (process.env.NODE_ENV !== 'production') {
     require('dotenv').config()
 }
 const PREFIX = '^'
-var version = '1.5'
+var version = '1.6.7'
 const activities_list = [
     "Naon Store",
     "@Tanfitra",
@@ -73,7 +73,43 @@ client.on('message',Message => {
         case 'ml' :
             commands.get('ml').execute(Message)
         break
+
+        case 'can' :
+            commands.get('can').execute(Message)
+        break
         
+        case 'flix' :
+            commands.get('flix').execute(Message)
+        break
+
+        case 'iqy' :
+            commands.get('iqy').execute(Message)
+        break
+
+        case 'pic' :
+            commands.get('pic').execute(Message)
+        break
+
+        case 'sau' :
+            commands.get('sau').execute(Message)
+        break
+
+        case 'spot' :
+            commands.get('spot').execute(Message)
+        break
+
+        case 'vi' :
+            commands.get('vi').execute(Message)
+        break
+
+        case 'watt' :
+            commands.get('watt').execute(Message)
+        break
+
+        case 'yt' :
+            commands.get('yt').execute(Message)
+        break
+
         case 'kick' :
             if(Message.member.roles.cache.find(r => r.name === 'Discord Access')) {
                 const userKick = Message.mentions.users.first()
