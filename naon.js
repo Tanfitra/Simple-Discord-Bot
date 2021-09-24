@@ -9,6 +9,7 @@ const PREFIX = '^'
 var version = '1.6.7'
 const activities_list = [
     "Naon Store",
+    "Prefix : ^",
     "@Tanfitra",
     "@EelMaoo",
     "@Ya'Juj",
