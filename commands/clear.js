@@ -2,7 +2,7 @@ module.exports = {
     name:'clear',
     description: "Ini adalah command clear chat",
     execute(Message, args)  {
-        var role = Message.member.roles.cache.find(r => r.name === "Discord Access")
+        var role = Message.member.roles.cache.find(r => r.name === "「 Police Administrator 」")
 
         if(role){
             if (!args[1])   {
@@ -11,7 +11,7 @@ module.exports = {
                 Message.channel.bulkDelete(args[1])
             }
         }else {
-            Message.reply('Kamu tidak memiliki role Discord Access, Kamu tidak bisa menggunakan command ini')
+            Message.reply('Kamu tidak memiliki role 「 Police Administrator 」, Kamu tidak bisa menggunakan command ini')
         }
     }
 }

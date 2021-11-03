@@ -1,1 +1,1 @@
-worker: node naon.js
+worker: node SAPD.js

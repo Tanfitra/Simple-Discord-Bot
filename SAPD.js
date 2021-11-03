@@ -9,12 +9,7 @@ const PREFIX = '^'
 var version = '1.6.7'
 const activities_list = [
     "Prefix : ^",
-    "Naon Store",
-    "Naon Studio",
-    "@Tanfitra",
-    "@EelMaoo",
-    "@Kepoya",
-    "@Juna",
+    "San Andreas Police Department"
 ]
 const fs = require('fs');
 const commands = new Collection()
@@ -51,68 +46,12 @@ client.on('message',Message => {
             commands.get('info').execute(Message)
         break
 
-        case 'free' :
-            commands.get('free').execute(Message)
-        break
-        
         case 'test' :
             commands.get('test').execute(Message)
         break
 
-        case 'exp' :
-            commands.get('exp').execute(Message)
-        break
-
-        case 'nrd' :
-            commands.get('nrd').execute(Message)
-        break
-
-        case 'net' :
-            commands.get('net').execute(Message)
-        break
-
-        case 'ml' :
-            commands.get('ml').execute(Message)
-        break
-
-        case 'can' :
-            commands.get('can').execute(Message)
-        break
-        
-        case 'flix' :
-            commands.get('flix').execute(Message)
-        break
-
-        case 'iqy' :
-            commands.get('iqy').execute(Message)
-        break
-
-        case 'pic' :
-            commands.get('pic').execute(Message)
-        break
-
-        case 'sau' :
-            commands.get('sau').execute(Message)
-        break
-
-        case 'spot' :
-            commands.get('spot').execute(Message)
-        break
-
-        case 'vi' :
-            commands.get('vi').execute(Message)
-        break
-
-        case 'watt' :
-            commands.get('watt').execute(Message)
-        break
-
-        case 'yt' :
-            commands.get('yt').execute(Message)
-        break
-
         case 'kick' :
-            if(Message.member.roles.cache.find(r => r.name === 'Discord Access')) {
+            if(Message.member.roles.cache.find(r => r.name === '「 Police Administrator 」')) {
                 const userKick = Message.mentions.users.first()
     
                 if(userKick) {
@@ -134,14 +73,14 @@ client.on('message',Message => {
                 }
             }else {
                 Message.channel.bulkDelete(1)
-                return Message.reply('Kamu tidak memiliki role Discord Access, Kamu tidak bisa menggunakan command ini')
+                return Message.reply('Kamu tidak memiliki role 「 Police Administrator 」, Kamu tidak bisa menggunakan command ini')
             }
         break
         
         case 'ban' :
-            var role = Message.member.roles.cache.find(r => r.name === 'Discord Accesss')
+            var role = Message.member.roles.cache.find(r => r.name === '「 Police Administrator 」')
             if(role){
-                return Message.reply("Kamu tidak memiliki role Discord Access, Kamu tidak bisa menggunakan command ini")
+                return Message.reply("Kamu tidak memiliki role 「 Police Administrator 」, Kamu tidak bisa menggunakan command ini")
             }else {
                 const userBan = Message.mentions.users.first()
 

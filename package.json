@@ -1,20 +1,24 @@
 {
-  "name": "naon-bot",
-  "version": "1.0.0",
-  "description": "Bot embed naon",
-  "main": "naon.js",
+  "name": "sapd-bot",
+  "version": "2.5.7",
+  "description": "Bot SAPD",
+  "main": "SAPD.js",
   "scripts": {
-    "start": "node naon.js",
-    "node .": "node run naon.js"
+    "start": "node SAPD.js",
+    "node .": "node run SAPD.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tanfitra/Naon-Bot.git"
+    "url": "git+https://github.com/Tanfitra/sapd-bot.git"
   },
   "author": "Tanfitra",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.3",
     "dotenv": "^10.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Tanfitra/sapd-bot/issues"
+  },
+  "homepage": "https://github.com/Tanfitra/sapd-bot#readme"
 }
