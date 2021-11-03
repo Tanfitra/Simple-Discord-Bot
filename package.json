@@ -7,10 +7,6 @@
     "start": "node SAPD.js",
     "node .": "node run SAPD.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Tanfitra/sapd-bot.git"
-  },
   "author": "Tanfitra",
   "license": "ISC",
   "dependencies": {
