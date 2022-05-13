@@ -1,11 +1,11 @@
 {
-  "name": "sapd-bot",
+  "name": "Simple-Discord-Bot",
   "version": "2.5.7",
-  "description": "Bot SAPD",
-  "main": "SAPD.js",
+  "description": "Bot discord yang simple",
+  "main": "Index.js",
   "scripts": {
-    "start": "node SAPD.js",
-    "node .": "node run SAPD.js"
+    "start": "node Index.js",
+    "node .": "node run Index.js"
   },
   "author": "Tanfitra",
   "license": "ISC",
