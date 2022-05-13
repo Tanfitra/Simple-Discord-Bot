@@ -9,7 +9,7 @@ const PREFIX = '^'
 var version = '1.6.7'
 const activities_list = [
     "Prefix : ^",
-    "San Andreas Police Department"
+    "Isi Activitynya"
 ]
 const fs = require('fs');
 const commands = new Collection()
