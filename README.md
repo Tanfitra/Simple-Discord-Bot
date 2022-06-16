@@ -4,4 +4,4 @@
 
 2. Configure `Config.json`
 
-5. Run `npm run start`
+3. Run `npm run start`
