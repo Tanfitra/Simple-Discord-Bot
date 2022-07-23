@@ -1,7 +1,7 @@
 # Instruction
 
-1. Run `npm install`
+1. Run `npm i`
 
 2. Configure `Config.json`
 
-3. Run `npm run start`
+3. Run `node .`
